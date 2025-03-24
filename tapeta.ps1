@@ -1,0 +1,1 @@
+iwr 'https://i.pinimg.com/736x/72/f9/ae/72f9ae0d32b2ff22859b6eceda3657e0.jpg' -OutFile $env:TEMP\a.jpg; sp 'HKCU:\Control Panel\Desktop' WallPaper $env:TEMP\a.jpg WallpaperStyle 0 TileWallpaper 0; RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters
